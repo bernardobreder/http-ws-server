@@ -1,0 +1,147 @@
+package httpws.opcode;
+
+public enum HWClassEnum {
+	
+	ACTIVE,
+	
+	BTN,
+	
+	BTN_DEFAULT,
+	
+	COL_LG_1,
+	
+	COL_LG_10,
+	
+	COL_LG_11,
+	
+	COL_LG_12,
+	
+	COL_LG_2,
+	
+	COL_LG_3,
+	
+	COL_LG_4,
+	
+	COL_LG_5,
+	
+	COL_LG_6,
+	
+	COL_LG_7,
+	
+	COL_LG_8,
+	
+	COL_LG_9,
+	
+	COL_MD_1,
+	
+	COL_MD_10,
+	
+	COL_MD_11,
+	
+	COL_MD_12,
+	
+	COL_MD_2,
+	
+	COL_MD_3,
+	
+	COL_MD_4,
+	
+	COL_MD_5,
+	
+	COL_MD_6,
+	
+	COL_MD_7,
+	
+	COL_MD_8,
+	
+	COL_MD_9,
+	
+	COL_SM_1,
+	
+	COL_SM_10,
+	
+	COL_SM_11,
+	
+	COL_SM_12,
+	
+	COL_SM_2,
+	
+	COL_SM_3,
+	
+	COL_SM_4,
+	
+	COL_SM_5,
+	
+	COL_SM_6,
+	
+	COL_SM_7,
+	
+	COL_SM_8,
+	
+	COL_SM_9,
+	
+	COL_XS_1,
+	
+	COL_XS_10,
+	
+	COL_XS_11,
+	
+	COL_XS_12,
+	
+	COL_XS_2,
+	
+	COL_XS_3,
+	
+	COL_XS_4,
+	
+	COL_XS_5,
+	
+	COL_XS_6,
+	
+	COL_XS_7,
+	
+	COL_XS_8,
+	
+	COL_XS_9,
+	
+	COLLAPSE,
+	
+	CONTAINER,
+	
+	CONTAINER_FLUID,
+	
+	DIVIDER,
+	
+	DROPDOWN,
+	
+	DROPDOWN_MENU,
+	
+	DROPDOWN_TOGGLE,
+	
+	LIST_GROUP,
+	
+	LIST_GROUP_ITEM,
+	
+	M_R,
+	
+	NAV,
+	
+	NAVBAR,
+	
+	NAVBAR_BRAND,
+	
+	NAVBAR_COLLAPSE,
+	
+	NAVBAR_DEFAULT,
+	
+	NAVBAR_FIXED_TOP,
+	
+	NAVBAR_HEADER,
+	
+	NAVBAR_NAV,
+	
+	ROW,
+	
+	TEXT_RIGHT, GLYPHICON, GLYPHICON_STAR;
+	
+}

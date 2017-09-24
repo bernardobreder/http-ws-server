@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-content: center;
+	align-items: stretch;
+	width: 100%;
+    height: 100%;
+}
+
+#main>article {
+	order: 2;
+	flex: 1 1 auto;
+	align-self: auto;
+	min-width: 0px;
+	min-height: auto;
+	min-width: 12em;
+}
+
+#main>nav {
+	order: 1;
+	flex: 0 0 auto;
+    align-self: auto;
+    min-width: 0px;
+    min-width: 200px;
+    min-height: auto;
+}
+
+#main>aside {
+	order: 3;
+	flex: 0 0 auto;
+    align-self: auto;
+    min-width: 0px;
+    min-width: 200px;
+    min-height: auto;
+}
+
+nav>ul {
+	display: flex;
+	list-style: none;
+	margin: 0px;
+	-webkit-margin: 0px;
+	padding: 0px;
+}
+
+nav>ul>li {
+	min-width: min-content;
+}
+
+nav>ul>#login {
+	margin-left: auto;
+}
+
+@media all and (max-width: 600px) {
+	#main {
+		flex-flow: column;
+	}
+	#main>article, #main>nav, #main>aside {
+		order: 0;
+		width: auto;
+	}
+}
+</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href=/about>About</a>
+				<li><a href=/projects>Projects</a>
+				<li><a href=/interact>Interact</a>
+				<li id="login"><a href=/login>Login</a>
+			</ul>
+		</nav>
+	</header>
+	<div id="main">
+		<nav>.a.</nav>
+		<article>...</article>
+		<aside>...</aside>
+	</div>
+	<footer>...</footer>
+</body>
+</html>
