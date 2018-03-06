@@ -1,7 +1,5 @@
 package httpws.builder.sql;
 
-import httpws.builder.sql.HwSql;
-
 import org.junit.Assert;
 import org.junit.Test;
 

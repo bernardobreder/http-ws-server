@@ -1,13 +1,13 @@
 package httpws.nio.mock;
 
-import httpws.nio.HwBuffer;
-import httpws.nio.IChannel;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
+
+import httpws.nio.HwBuffer;
+import httpws.nio.IChannel;
 
 public class ServerChannelMock implements IChannel {
 

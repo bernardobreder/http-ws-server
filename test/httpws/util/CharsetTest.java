@@ -6,8 +6,6 @@ import java.util.Arrays;
 import org.junit.Assert;
 import org.junit.Test;
 
-import httpws.util.Charset;
-
 public class CharsetTest {
 	
 	@Test

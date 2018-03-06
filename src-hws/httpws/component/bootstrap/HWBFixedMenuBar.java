@@ -1,11 +1,11 @@
 package httpws.component.bootstrap;
 
+import java.io.IOException;
+
 import httpws.component.HWContainer;
 import httpws.component.HWLink;
 import httpws.opcode.HWClassEnum;
 import httpws.opcode.HWTagEnum;
-
-import java.io.IOException;
 
 public class HWBFixedMenuBar extends HWContainer {
 	

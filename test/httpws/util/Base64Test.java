@@ -5,8 +5,6 @@ import java.util.Arrays;
 import org.junit.Assert;
 import org.junit.Test;
 
-import httpws.util.Base64;
-
 public class Base64Test {
 	
 	@Test

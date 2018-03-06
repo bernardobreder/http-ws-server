@@ -1,11 +1,11 @@
 package httpws.util;
 
-import httpws.nio.HwBuffer;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import httpws.nio.HwBuffer;
 
 public class ByteBufferUtil {
 

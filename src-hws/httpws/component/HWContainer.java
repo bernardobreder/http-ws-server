@@ -1,10 +1,10 @@
 package httpws.component;
 
-import httpws.hws.IBrowser;
-import httpws.opcode.HWTagEnum;
-
 import java.util.LinkedList;
 import java.util.List;
+
+import httpws.hws.IBrowser;
+import httpws.opcode.HWTagEnum;
 
 public class HWContainer extends HWComponent {
 	

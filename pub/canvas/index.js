@@ -15,13 +15,15 @@ function paint(ctx) {
 	// ctx.clearRect(45, 45, 60, 60);
 	// ctx.strokeRect(50, 50, 50, 50);
 
-	var max = 50;
+	let size = 100
+	var wmax = window.innerWidth / size;
+	var hmax = window.innerHeight / size;
 	var dec = 10;
-	for (var i = 0; i < max; i++) {
-		for (var j = 0; j < max; j++) {
-			ctx.fillStyle = 'rgb(' + Math.floor(255 - 255 / max * i) + ','
-					+ Math.floor(255 - 255 / max * j) + ',0)';
-			ctx.fillRect(offx + j * 25, offy + i * 25, 25, 25);
+	for (var i = 0; i < hmax; i++) {
+		for (var j = 0; j < wmax; j++) {
+			ctx.fillStyle = 'rgb(' + Math.floor(255 - 255 / hmax * i) + ','
+					+ Math.floor(255 - 255 / wmax * j) + ',0)';
+			ctx.fillRect(-offx + j * size, -offy + i * size, size, size);
 		}
 	}
 }
@@ -48,6 +50,7 @@ window.addEventListener("load", function() {
 	c.onmousewheel = function(evt) {
 		offx += evt.deltaX;
 		offy += evt.deltaY;
+		console.log(offx + "x" + offy)
 		paint(ctx);
 		return false;
 	}

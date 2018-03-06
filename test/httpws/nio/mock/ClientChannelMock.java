@@ -1,9 +1,9 @@
 package httpws.nio.mock;
 
-import httpws.nio.HwBuffer;
-
 import java.util.LinkedList;
 import java.util.Queue;
+
+import httpws.nio.HwBuffer;
 
 public class ClientChannelMock {
 

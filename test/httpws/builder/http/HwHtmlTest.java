@@ -1,9 +1,9 @@
 package httpws.builder.http;
 
-import httpws.builder.js.HwJavascript;
-
 import org.junit.Assert;
 import org.junit.Test;
+
+import httpws.builder.js.HwJavascript;
 
 public class HwHtmlTest extends HwHtml {
 

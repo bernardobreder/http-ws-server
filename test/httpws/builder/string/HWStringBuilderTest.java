@@ -1,7 +1,6 @@
 package httpws.builder.string;
 
 import static org.junit.Assert.assertEquals;
-import httpws.builder.string.HWStringBuilder;
 
 import org.junit.Test;
 

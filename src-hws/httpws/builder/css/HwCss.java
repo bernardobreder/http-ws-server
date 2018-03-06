@@ -7,10 +7,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.TreeMap;
 
 import httpws.util.Charset;
-
-import java.util.TreeMap;
 
 /**
  * Estilo através de estrutura Java

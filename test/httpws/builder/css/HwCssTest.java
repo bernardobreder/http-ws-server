@@ -1,7 +1,5 @@
 package httpws.builder.css;
 
-import httpws.builder.css.HwCss;
-
 import org.junit.Assert;
 import org.junit.Test;
 

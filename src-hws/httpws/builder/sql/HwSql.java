@@ -1,11 +1,11 @@
 package httpws.builder.sql;
 
-import httpws.builder.HwStack;
-
 import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
+
+import httpws.builder.HwStack;
 
 public class HwSql {
 	

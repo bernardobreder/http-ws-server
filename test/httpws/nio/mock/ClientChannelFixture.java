@@ -1,10 +1,10 @@
 package httpws.nio.mock;
 
-import httpws.nio.HwBuffer;
-import httpws.util.Charset;
-
 import org.junit.Assert;
 import org.junit.ComparisonFailure;
+
+import httpws.nio.HwBuffer;
+import httpws.util.Charset;
 
 public class ClientChannelFixture {
 

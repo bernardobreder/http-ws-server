@@ -14,6 +14,7 @@ import static httpws.opcode.HWClientOpcodeEnum.REMOVE_CLASS_NAME_OPCODE;
 import static httpws.opcode.HWClientOpcodeEnum.SET_LINK_CONTENT_OPCODE;
 import static httpws.opcode.HWClientOpcodeEnum.SET_TEXT_CONTENT_OPCODE;
 import static httpws.opcode.HWClientOpcodeEnum.SET_TEXT_INDEX_OPCODE;
+
 import httpws.builder.js.HwJsOpcodeReaderClass.$OpcodeReader;
 import httpws.hws.HwWsAppOpcode;
 import httpws.opcode.HWAttributeKeyEnum;

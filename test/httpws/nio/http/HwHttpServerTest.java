@@ -1,14 +1,14 @@
 package httpws.nio.http;
 
-import httpws.nio.HwBuffer;
-import httpws.nio.mock.ClientChannelFixture;
-import httpws.nio.mock.ServerChannelFixture;
-
 import java.io.IOException;
 import java.util.Map;
 
 import org.junit.Assert;
 import org.junit.Test;
+
+import httpws.nio.HwBuffer;
+import httpws.nio.mock.ClientChannelFixture;
+import httpws.nio.mock.ServerChannelFixture;
 
 public class HwHttpServerTest {
 	
